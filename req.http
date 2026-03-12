@@ -1,0 +1,62 @@
+###all users
+GET http://localhost:3000/users-api/users
+
+### Read a user by id
+GET http://localhost:3000/users-api/users/2
+
+###create new
+POST http://localhost:3000/users-api/users
+Content-Type: application/json
+
+{
+    "id":2,
+    "name":"Rithu",
+    "age":20
+}
+
+###modify
+PUT http://localhost:3000/users-api/users
+Content-Type: application/json
+
+{
+    "id":2,
+    "name":"bhanu",
+    "age":22
+}
+
+###
+DELETE http://localhost:3000/users-api/users/1
+
+// put request and post request supports body
+// post request and put request should send data to the API as body of the request object
+// get and delete requests do not support body of the request object so that these two requests can send data through end point
+
+
+###all products
+GET http://localhost:3000/products-api/products
+
+### Read a user by id
+GET http://localhost:3000/products-api/products/2
+
+###create new
+POST http://localhost:3000/products-api/products
+Content-Type: application/json
+
+{
+    "id":2,
+    "name":"Rithu",
+    "age":20
+}
+
+###modify
+PUT http://localhost:3000/products-api/products
+Content-Type: application/json
+
+{
+    "id":2,
+    "name":"bhanu",
+    "age":22
+}
+
+###delete by id
+DELETE http://localhost:3000/products-api/products/2
