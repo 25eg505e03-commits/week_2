@@ -9,9 +9,9 @@ POST http://localhost:3000/users-api/users
 Content-Type: application/json
 
 {
-    "id":2,
-    "name":"Rithu",
-    "age":20
+    "id":3,
+    "name":"nigama",
+    "age":21
 }
 
 ###modify
@@ -25,7 +25,7 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3000/users-api/users/1
+DELETE http://localhost:3000/users-api/users/2
 
 // put request and post request supports body
 // post request and put request should send data to the API as body of the request object
@@ -43,9 +43,9 @@ POST http://localhost:3000/products-api/products
 Content-Type: application/json
 
 {
-    "id":2,
-    "name":"Rithu",
-    "age":20
+    "id":1,
+    "product":"suncreen",
+    "brand":"ponds"
 }
 
 ###modify
@@ -53,9 +53,9 @@ PUT http://localhost:3000/products-api/products
 Content-Type: application/json
 
 {
-    "id":2,
-    "name":"bhanu",
-    "age":22
+    "id":1,
+    "product":"sunscreen",
+    "brand":"dot and key"
 }
 
 ###delete by id
