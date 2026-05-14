@@ -1,4 +1,3 @@
-
 // ADVANCED ASSIGNMENT 3: employee list with filter, map, reduce, find, and findIndex
 const employees = [
   { id: 201, name: "Amit", salary: 45000, department: "IT" },
