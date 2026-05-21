@@ -1,9 +1,9 @@
 # Week 2 JavaScript Project
 
-## 🚀 Project Overview
+##  Project Overview
 This repository contains week 2 JavaScript practice projects focused on array operations, module-based architecture, task management, copy behavior, spread/rest syntax, and timer utilities. Each day is organized into folders that reflect the learning modules and the files used for the exercises.
 
-## 📁 Project Structure
+## Project Structure
 ```bash
 week-2/
 ├── day_3/
@@ -46,7 +46,7 @@ week-2/
         └── productapi.js
 ```
 
-## 🧩 Assignment Details
+## Assignment Details
 | Folder | Purpose | Key Files |
 |---|---|---|
 | `day_3/Array-operations-simple/` | Learn basic array methods and manipulation | `simple_arr1.js`, `simple_arr2.js`, `simple_arr3.js` |
@@ -72,7 +72,7 @@ node Product-API\server.js
 
 > If your files require modules or a local server, install dependencies first with `npm install` inside the relevant folder, for example `Product-API/`.
 
-## 📚 Learning Outcomes
+## Learning Outcomes
 - Understand basic and advanced JavaScript array operations.
 - Learn how to split code into reusable modules.
 - Build a small task management workflow with validation.
@@ -81,13 +81,13 @@ node Product-API\server.js
 - Implement timer-based features like exam simulation and OTP countdown.
 - Review simple API structure and server routing in a JavaScript project.
 
-## 🧪 Tech Stack
+##  Tech Stack
 - JavaScript (ES6+)
 - Node.js runtime
 - Modular file structure
 - Basic API routing and project organization
 
-## 💡 Notes
+##  Notes
 - Each folder is designed as a standalone assignment or exercise.
 - File names were kept exactly as provided in the workspace.
 - This README is formatted for GitHub and beginner-friendly navigation.
